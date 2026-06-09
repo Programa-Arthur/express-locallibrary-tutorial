@@ -20,7 +20,7 @@ app.set("port", port);
  */
 const mongoose = require("mongoose");
 const dev_db_url =
-  "mongodb+srv://cooluser:coolpassword@cluster0.cojoign.mongodb.net/local_library?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://Arthur:nGqvcvKW7CmTKNf3@biblioteca.yubofvh.mongodb.net/?appName=Biblioteca";
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 try {
